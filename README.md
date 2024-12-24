@@ -1,6 +1,6 @@
 <div>
   <h1>
-    Enji Kusnadi
+    Jithin Joji Anchanattu
     &middot;
     <img src="https://img.shields.io/website?style=flat-square&url=https%3A%2F%2Fwww.enji.dev"/>
     <img src="https://img.shields.io/github/deployments/enjidev/enji.dev/production?label=production&style=flat-square"/>
@@ -10,7 +10,7 @@
 
 A monorepo for my personal website and projects, built with Turborepo and pnpm.
 
-## 📘 [enji.dev](https://www.enji.dev)
+## 📘 [jithin.pro](https://www.jithin.pro)
 
 A personal website with a blog, project showcase, and work information.
 
@@ -36,13 +36,23 @@ git clone <your-fork>
 Navigate to the project's root directory:
 
 ```
-cd ./enji.dev
+cd ./jithin.dev
 ```
+
+### Using npm
+
+We provide two packages of pnpm CLI, pnpm and @pnpm/exe.
+
+pnpm is an ordinary version of pnpm, which needs Node.js to run.
+@pnpm/exe is packaged with Node.js into an executable, so it may be used on a system with no Node.js installed.
+npm install -g pnpm
+
+### Setting Up
 
 Next, copy the development version of the `env` file:
 
 ```
-cp ./apps/enji.dev/env.example ./apps/enji.dev/env.local
+cp ./apps/jithin.dev/env.example ./apps/jithin.dev/env.local
 ```
 
 Now, you have the `env.local` file ready for configuration:
